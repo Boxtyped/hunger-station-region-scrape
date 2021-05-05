@@ -47,6 +47,7 @@ for page in range(1,6):
     regions = regions + page_regions
 
 df = pd.DataFrame(regions)
+print(df)
 
 # Create a Pandas Excel writer using XlsxWriter as the engine.
 writer = pd.ExcelWriter(args.output + "/" + 'cities.xlsx', engine='xlsxwriter')

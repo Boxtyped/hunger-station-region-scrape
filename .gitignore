@@ -1,2 +1,7 @@
 cities.xlsx
 output/
+Include/
+Lib/
+Scripts/
+
+*.cfg
